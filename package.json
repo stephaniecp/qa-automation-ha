@@ -1,0 +1,17 @@
+{
+  "name": "qa-automation-ha",
+  "version": "1.0.0",
+  "description": "Node based Selenium test",
+  "main": "index.js",
+  "scripts": {
+    "test": "SELENIUM_BROWSER=chrome mocha test/**",
+    "hanna": "SELENIUM_BROWSER=chrome mocha test/test_hanna.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^97.0.4",
+    "mocha": "^9.2.0",
+    "selenium-webdriver": "^4.0.0-rc-1"
+  }
+}
