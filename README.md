@@ -4,6 +4,10 @@
 
   npm install
 
+# Running the tests
+
+  npm test
+
 # Documentation
 
 Some resources:
